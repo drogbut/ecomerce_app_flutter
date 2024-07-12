@@ -1,7 +1,7 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 
-import '../../../locator.dart';
-import 'onoffline.dart';
+import '../../../../locator.dart';
+import '../onoffline.dart';
 
 class UtilityNetwork {
   static final UtilityNetwork _instance = UtilityNetwork._internal();
@@ -13,7 +13,8 @@ class UtilityNetwork {
     _onOff = sl.get<UtilityOnOffline>();
   }
 
-  bool getOnlineOfflineStatusWithConnectivity(ConnectivityResult connectionStatus) {
+  bool getOnlineOfflineStatusWithConnectivity(
+      ConnectivityResult connectionStatus) {
     if (connectionStatus == ConnectivityResult.none) {
       return false;
     }
@@ -21,7 +22,8 @@ class UtilityNetwork {
     return _onOff.getOnlineOfflineStatus();
   }
 
-  bool getOnlineOfflineTryStatusWithConnectivity(ConnectivityResult connectionStatus) {
+  bool getOnlineOfflineTryStatusWithConnectivity(
+      ConnectivityResult connectionStatus) {
     if (connectionStatus == ConnectivityResult.none) {
       return false;
     }

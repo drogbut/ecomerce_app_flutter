@@ -18,4 +18,5 @@ void setupLocator() {
   sl.registerLazySingleton(() => UtilityDeviceInfo());
   sl.registerLazySingleton(() => UtilityNavigation());
   sl.registerLazySingleton(() => UtilityPlatform());
+  sl.registerLazySingleton(() => UtilityOnOffline());
 }

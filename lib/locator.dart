@@ -5,6 +5,7 @@ import 'core/utilities/connectivity.dart';
 import 'core/utilities/date_format.dart';
 import 'core/utilities/device_info.dart';
 import 'core/utilities/navigation.dart';
+import 'core/utilities/network/on_offline.dart';
 import 'core/utilities/platform.dart';
 import 'core/utilities/preferences.dart';
 

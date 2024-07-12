@@ -1,7 +1,7 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 
 import '../../../../locator.dart';
-import '../onoffline.dart';
+import 'on_offline.dart';
 
 class UtilityNetwork {
   static final UtilityNetwork _instance = UtilityNetwork._internal();

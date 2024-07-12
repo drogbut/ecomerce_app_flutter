@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import '../../../standard/constants.dart';
+const int offlineTimeInSeconds = 30;
 
 class UtilityOnOffline {
   static final UtilityOnOffline _instance = UtilityOnOffline._internal();
@@ -20,7 +20,8 @@ class UtilityOnOffline {
 
       _onlineOfflineStatus = false;
       _onlineOfflineTryStatus = false;
-      _timer = Timer.periodic(const Duration(seconds: offlineTimeInSeconds), (_) {
+      _timer =
+          Timer.periodic(const Duration(seconds: offlineTimeInSeconds), (_) {
         timedOut();
       });
     }

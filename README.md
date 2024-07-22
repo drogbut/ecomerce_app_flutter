@@ -78,13 +78,15 @@ flutter-app/
 
 ## Features:
 
+* [Feature-first or Layer-first?](https://codewithandrea.com/articles/flutter-project-structure/)
 * [Flutter Clean Architecture by Reso Coder](https://resocoder.com/flutter-clean-architecture-tdd/)
 * [Multilingual Support by PodCoder](https://www.youtube.com/watch?v=WrqH5fF2ZuY&list=PLtuW0sh7ZGJFrd4FYRk0PJf0qHF-q96MQ&index=4)
-* Dependency Injection
+* [Error handling - use Either type](https://pub.dev/packages/dartz) 
+* [Dependency Injection - using package get_it](https://pub.dev/packages/get_it)
 * App Theme with material design 3
 * Responsive App
 * [Firebase setup with CLI](https://firebase.flutter.dev/docs/cli/)
-* Firebase Authentication
+* [Firebase Authentication](https://firebase.google.com/docs/auth)
 
 ## How to Use 
 
